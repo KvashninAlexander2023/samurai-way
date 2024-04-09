@@ -1,0 +1,16 @@
+.nav {
+  grid-area: n;
+  background-color: #f1a4df;
+}
+.nav ul {
+  list-style: none;
+}
+
+.item li a {
+  color: white;
+  text-decoration: none;
+}
+
+.item.isActive  {
+  color:rgb(41, 151, 241)
+}

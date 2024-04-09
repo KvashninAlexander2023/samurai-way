@@ -1,0 +1,6 @@
+.content {
+  grid-area: c;
+  /* background-color: #f0cb74; */
+  background-image: url("../../assets/img/i.webp");
+  background-size: cover;
+}
