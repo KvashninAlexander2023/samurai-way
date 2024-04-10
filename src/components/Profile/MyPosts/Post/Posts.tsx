@@ -1,10 +1,14 @@
 import React from "react";
 import s from "./Post.module.css";
 
-export function Post() {
+type PostType = {
+  message: string;
+};
+
+export function Post(props: PostType) {
   return (
     <div className={s.item}>
-      post 1
+      {props.message}
       <div>
         <span>like</span>
       </div>
